@@ -4,6 +4,11 @@ import TransactionForm from './TransactionForm';
 import SearchBar from "./SearchBar"
 import './App.css';
 
+const App = () => {
+  const [transactions, setTransactions] =useState([]);
+  const [ searchTerm, setSearchTerm] = useState('');
+}
+
 function App() {
   return (
     <div className="App">
